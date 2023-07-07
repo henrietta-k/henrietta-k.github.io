@@ -2349,6 +2349,12 @@ ul.icons {
 
 /* Image */
 
+
+    /* Thumbnail image on homepage */
+    img.thumbnail {
+        margin-right: 100px;
+    }
+
 	.image {
 		border-radius: 4px;
 		border: 0;
@@ -3371,3 +3377,82 @@ ul.icons {
 			}
 
 		}
+
+/* iframe */
+
+iframe{
+    display: block;
+    margin: auto;
+}
+
+
+* {box-sizing:border-box}
+
+
+/* SOURCE: https://www.w3schools.com/howto/howto_js_slideshow.asp */
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 40%;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* Caption text */
+.text {
+  color: black;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+/* Others */
+div.featured-project {
+    text-align: center;
+}
